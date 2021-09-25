@@ -2,11 +2,34 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/UsrBgs.css);
 
 :root {
+	--transparencycolor:			0,0,0;
+	--transparencyalpha:			0.15;
+	--messagetransparency:			0.5;
+	--usechatbubbles: 				calc(var(--messagetransparency) / (var(--messagetransparency) + 0.00000000000000000000001));
+	--guildchanneltransparency:		0.15;
+	--chatinputtransparency:		0.0;
+	--memberlisttransparency:		0.0;
 	
 	--font:							Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
 	--textshadow:					transparent;
 	
-	--background:					url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/_res/background.jpg);
+	--accentcolor:					190,78,180;
+	--accentcolor2:					var(--accentcolor);
+	--mentioncolor:					var(--accentcolor);
+	--linkcolor:					var(--accentcolor);
+	
+	--successcolor: 				59,165,92;
+	--warningcolor: 				250,166,26;
+	--dangercolor: 					237,66,69;
+	
+	--textbrightest: 				255,255,255;
+	--textbrighter: 				222,222,222;
+	--textbright: 					200,200,200;
+	--textdark: 					160,160,160;
+	--textdarker: 					125,125,125;
+	--textdarkest: 					90,90,90;
+	
+	--background:					url(https://milestailsprower0.github.io/miles/VTF7Snie_o8.jpg);
 	--backgroundposition:			center;
 	--backgroundsize:				cover;
 	--backgroundblur:				unset;
