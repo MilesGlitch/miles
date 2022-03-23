@@ -1,4 +1,4 @@
-apt install git
+apt install git -y
 echo --- Instaling BedrokServer ---
 git clone https://github.com/MilesGlitch/BedrokServerTranslator.git
 cd BedrokServerTranslator
