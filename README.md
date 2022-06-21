@@ -1,4 +1,4 @@
-Это просто сайт для разных штук.
+Cape server
  ```JSON
  {
  "debug": "enable"
